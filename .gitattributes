@@ -2,3 +2,9 @@
 *.cpp linguist-vendored
 *.h linguist-vendored
 *.cc linguist-vendored
+
+# Ignore native platforms code
+linux/* linguist-vendored
+windows/* linguist-vendored
+macos/* linguist-vendored
+
