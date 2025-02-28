@@ -1,0 +1,4 @@
+# Ignore C++ files for language detection
+*.cpp linguist-vendored
+*.h linguist-vendored
+*.cc linguist-vendored
