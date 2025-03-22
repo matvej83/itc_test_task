@@ -28,7 +28,7 @@ jobs:
         run: flutter build web --release
 
       - name: Deploy to GitHub Pages
-        uses: Matvej83/github-pages-deploy-action@v4
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages
           folder: build/web
